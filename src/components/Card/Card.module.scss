@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+.card {
+  box-shadow: 0 0 10px $lightGray;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $whiteSmoke;
+    box-shadow: 0 0 10px $darkGray;
+  }
+
+  &__image {
+    height: 150px;
+  }
+}

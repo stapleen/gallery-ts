@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+body {
+  .users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__user {
+      margin-bottom: 20px;
+      width: 280px;
+      background-color: $white;
+      border: 1px solid;
+      text-transform: none;
+
+      &:hover {
+        box-shadow: 0 0 10px $translucentGray;
+      }
+    }
+  }
+}
